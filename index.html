@@ -16,6 +16,8 @@
 
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/ugsu.css" id="theme">
+		
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
 		<!-- Code syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -34,7 +36,7 @@
 		<![endif]-->
 	</head>
 
-	<body>
+	<body id="page">
 
 		<div class="reveal">
 
@@ -47,7 +49,7 @@
 					
 				</section>
 
-				<section data-background="#ff00ff">
+				<section data-background="#FFF">
 					
 					<img src="img/Housing%20plasma%201024%20x%20768%20JW.jpg" height="" width="" />
 					
@@ -113,6 +115,8 @@
 			    };
 			})();
 			
+			
+			
 			function init(){
 				
 				// Full list of configuration options available at:
@@ -124,6 +128,7 @@
 					autoSlide: slide_length,
 					hideAddressBar: true,
 					transition: 'slide',
+					slideNumber: true,
 					loop: true,
 					center: true,
 	
@@ -144,11 +149,22 @@
 			
 			init();
 			
+			var i = document.getElementById("page");
+ 
+			// go full-screen
+			if (i.requestFullscreen) {
+			    i.requestFullscreen();
+			} else if (i.webkitRequestFullscreen) {
+			    i.webkitRequestFullscreen();
+			} else if (i.mozRequestFullScreen) {
+			    i.mozRequestFullScreen();
+			} else if (i.msRequestFullscreen) {
+			    i.msRequestFullscreen();
+}			
 			setInterval(function () {
 				
 				location.reload();
 				
-				init();
 					
 			}, slideshow_length);
 			
