@@ -291,6 +291,37 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/perma\/president.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.63098e+06,
+		"inputAbbreviatedPath": "\/img\/perma\/president.JPG",
+		"outputAbbreviatedPath": "\/img\/perma\/president.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pgo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 76650,
+		"inputAbbreviatedPath": "\/img\/pgo.jpg",
+		"outputAbbreviatedPath": "\/img\/pgo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/js\/reveal.js": {
 		"fileType": 64,
 		"ignore": 0,
