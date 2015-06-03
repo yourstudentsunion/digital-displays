@@ -15,6 +15,7 @@
 @import url(../../lib/font/source-sans-pro/source-sans-pro.css);
 
 
+
 // Override theme settings (see ../template/settings.scss)
 $backgroundColor: #fff;
 
@@ -37,6 +38,10 @@ $heading2Size: 1.6em;
 $heading3Size: 1.3em;
 $heading4Size: 1.0em;
 
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
+
 section.has-dark-background {
 	&, h1, h2, h3, h4, h5, h6 {
 		color: #fff;
@@ -55,6 +60,30 @@ img {
 	
 }
 
-// Theme template ------------------------------
-@import "../template/theme";
-// ---------------------------------------------
+.news {
+	
+	h4,h2 { color: black !important; }
+	
+	ul#bbc_news {
+		
+		list-style: none;
+	
+	li {
+		
+		a {
+			
+			font-size: 20px;
+			color: black;
+			
+			
+		}
+		
+		font-size: 20px;
+		color: black;
+		
+	}
+	
+	}
+	
+}
+

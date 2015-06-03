@@ -28,6 +28,8 @@
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
+		
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
@@ -39,7 +41,16 @@
 		<div class="reveal">
 
 			<!-- Any section element inside of this container is displayed as a slide -->
+			
 			<div class="slides">
+				
+				<section class="news">
+					
+					<h4>BBC News Headlines</h4>
+					
+					<ul id="bbc_news"></ul>
+					
+				</section>
 				
 				<section>
 					
@@ -106,6 +117,31 @@
 
 		<script>
 			
+			parseRSS("http://feeds.bbci.co.uk/news/uk/rss.xml");	
+		
+			function parseRSS(url) {
+			  $.ajax({
+			    url: 'http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=10&callback=?&q=' + encodeURIComponent(url),
+			    dataType: 'json',
+			    success: function(data) {
+			    
+			    	// console.log(data.responseData.feed);
+					console.log(data.responseData.feed);
+					
+						for(i = 0; i < 3; i++){
+							
+							var title = 
+							
+							$("ul#bbc_news").append("<li><h2>" + data.responseData.feed.entries[i].title + "</h2><p>" + data.responseData.feed.entries[i].content + "</p></li>");
+							
+						}
+					
+					
+			      
+			    }
+			  });
+			}	
+			
 			var hour = 3600000;
 			var slide_length = 5000;
 			var slideshow_length = (slide_length * 7);
@@ -139,7 +175,7 @@
 					controls: false,
 					progress: false,
 					history: false,
-					autoSlide: slide_length,
+					autoSlide: false,
 					hideAddressBar: true,
 					transition: 'slide',
 					loop: true,
