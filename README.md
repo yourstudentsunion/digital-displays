@@ -8,7 +8,7 @@ This system uses Google Chrome's Kiosk mode to display the system in fullscreen 
 
 2. Right click on the shortcut
 
-3. Edit the target value by adding '-kiosk http://yourstudentsunion.github.io/digital-displays'
+3. Edit the target value by adding ``-kiosk http://yourstudentsunion.github.io/digital-displays``
 
 4. Save and close
 
