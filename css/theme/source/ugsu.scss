@@ -19,14 +19,14 @@
 $backgroundColor: #fff;
 
 $mainColor: #004A8B;
-$headingColor: #FFF;
+$headingColor: #444;
 
 $mainFontSize: 38px;
 $mainFont: Helvetica, sans-serif;
 $headingFont: Helvetica, sans-serif;
 $headingTextShadow: none;
 $headingLetterSpacing: normal;
-$headingTextTransform: uppercase;
+$headingTextTransform: normal;
 $headingFontWeight: 600;
 $linkColor: #2a76dd;
 $linkColorHover: lighten( $linkColor, 15% );
@@ -37,10 +37,10 @@ $heading2Size: 1.6em;
 $heading3Size: 1.3em;
 $heading4Size: 1.0em;
 
-section.has-dark-background {
-	&, h1, h2, h3, h4, h5, h6 {
-		color: #fff;
-	}
+* {
+	
+	-webkit-font-smoothing: antialiased;
+	
 }
 
 .reveal section img {
@@ -54,6 +54,145 @@ img {
 	border: none;
 	
 }
+
+table {
+	
+	border: 1px solid red;
+	
+}
+
+.social {
+	
+	height: 30%;
+	width: 30%;
+	
+}
+
+section.officer {
+	
+	.col-wrap {}
+	
+	article {
+		
+		background: white;
+		border: 1px solid rgba(0,0,0,0.7);
+		
+	}
+	
+	.col-wrap:after {
+		
+		content: "";
+		display: block;
+		clear: both;
+		
+	}
+	
+	.col {
+		
+		float: left;
+		width: 50%;
+		
+	}
+	
+	img {
+		
+		box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.2);
+		border-radius: 20px;
+		
+	}
+	
+}
+
+section.tweets {
+	
+	#twitter {
+		
+		position: absolute;
+		top:0;
+		right:0;
+		
+	}
+	
+	#light {
+		
+		font-weight: 100;
+		
+	}
+	
+	h3 {
+		
+		text-align: left;
+		color: white;
+		
+	}
+	
+	p.handle {
+		
+		text-align: left;
+		margin-left: 150px;
+		color: white;
+		font-weight: bold;
+		padding-top: 7px;
+		margin-top: 0;
+		
+	}
+	
+	#latestTweet {
+	
+		background: white;
+		padding: 20px;
+			
+		ul {
+		
+			padding: 0;
+			margin: 0;
+			list-style: none;
+			
+			
+			p.tweet {
+				
+				margin: 0;
+				color: #444;
+				
+				a {
+					
+					color: $mainColor;
+					font-weight: bold;
+					
+				}
+				
+			}
+			
+			p.tweet:after {
+		
+				content: "";
+				display: inline-block;
+				height: 0;
+				width: 0;
+				
+				
+					
+				border-top: 40px solid transparent;
+				border-bottom: 40px solid transparent; 
+	
+				border-right: 40px solid white; 
+				
+				-webkit-transform: rotate(-225deg);
+				
+				left: 100px;
+				
+				position: absolute;
+				bottom: 43px;
+				
+			}
+			
+		}
+		
+	}
+	
+}
+
+
 
 // Theme template ------------------------------
 @import "../template/theme";
