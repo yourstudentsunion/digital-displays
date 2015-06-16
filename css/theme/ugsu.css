@@ -4,22 +4,6 @@
  * Copyright (C) 2015 Hakim El Hattab, http://hakim.se
  */
 @import url(../../lib/font/source-sans-pro/source-sans-pro.css);
-section.has-dark-background, section.has-dark-background h1, section.has-dark-background h2, section.has-dark-background h3, section.has-dark-background h4, section.has-dark-background h5, section.has-dark-background h6 {
-  color: #fff; }
-
-.reveal section img {
-  border: 0; }
-
-img {
-  border: none; }
-
-table {
-  border: 1px solid red; }
-
-.social {
-  height: 30%;
-  width: 30%; }
-
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
@@ -67,12 +51,12 @@ body {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #FFF;
+  color: #444;
   font-family: Helvetica, sans-serif;
   font-weight: 600;
   line-height: 1.2;
   letter-spacing: normal;
-  text-transform: uppercase;
+  text-transform: normal;
   text-shadow: none;
   word-wrap: break-word; }
 
@@ -304,3 +288,156 @@ body {
  *********************************************/
 .reveal .slide-number {
   color: #2a76dd; }
+
+* {
+  -webkit-font-smoothing: antialiased; }
+
+.reveal section img {
+  border: 0; }
+
+img {
+  border: none; }
+
+.social {
+  height: 30%;
+  width: 30%; }
+
+section.events,
+section.instafeed {
+  width: 98%;
+  margin: 1%; }
+
+section.events ul#events_feed {
+  -webkit-column-count: 2; }
+
+section.instafeed {
+  top: 0; }
+  section.instafeed img {
+    margin: 0;
+    max-height: 100%;
+    max-width: 100%; }
+  section.instafeed h3 {
+    padding: 20px;
+    background: white;
+    color: #00B2E2;
+    text-align: left; }
+  section.instafeed #instagram {
+    position: absolute;
+    top: 35px;
+    right: 15px; }
+
+section.news {
+  padding: 1%; }
+  section.news * {
+    box-sizing: border-box; }
+  section.news h3 {
+    color: white;
+    text-align: left;
+    margin-left: 15px; }
+  section.news ul#bbc_news {
+    margin: 0;
+    padding: 0;
+    background: white;
+    list-style: none; }
+    section.news ul#bbc_news li {
+      float: left;
+      width: 50%;
+      padding: 20px;
+      font-size: 20px;
+      color: black;
+      margin-bottom: 10px; }
+      section.news ul#bbc_news li a {
+        font-size: 20px;
+        color: black; }
+    section.news ul#bbc_news li:first-child {
+      margin-top: 5px;
+      border-right: 1px solid #ccc; }
+  section.news ul#bbc_news:after {
+    content: "";
+    display: block;
+    clear: both; }
+
+span.light {
+  font-weight: 100; }
+
+.highlight {
+  color: #004a8b !important; }
+
+section.officer {
+  text-align: left;
+  /*
+  == NEW 
+  */ }
+  section.officer #email,
+  section.officer #socail {
+    display: inline-block;
+    background: #004A8B;
+    padding: 5px 20px;
+    color: white; }
+  section.officer * {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+  section.officer article {
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.7); }
+  section.officer .col-wrap {
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background: white;
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.2); }
+  section.officer .col-wrap:after {
+    content: "";
+    display: block;
+    clear: both; }
+  section.officer .col {
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 50%;
+    text-align: left; }
+  section.officer .col:nth-child(1) {
+    border-right: 1px solid #eee; }
+  section.officer .col:nth-child(2) {
+    height: 100%;
+    padding: 20px; }
+
+section.tweets #twitter {
+  position: absolute;
+  top: 0;
+  right: 0; }
+section.tweets h3 {
+  text-align: left;
+  color: white; }
+section.tweets p.handle {
+  text-align: left;
+  margin-left: 150px;
+  color: white;
+  font-weight: bold;
+  padding-top: 7px;
+  margin-top: 0; }
+section.tweets #latestTweet {
+  background: white;
+  padding: 20px; }
+  section.tweets #latestTweet ul {
+    padding: 0;
+    margin: 0;
+    list-style: none; }
+    section.tweets #latestTweet ul p.tweet {
+      margin: 0;
+      color: #444; }
+      section.tweets #latestTweet ul p.tweet a {
+        color: #004A8B;
+        font-weight: bold; }
+    section.tweets #latestTweet ul p.tweet:after {
+      content: "";
+      display: inline-block;
+      height: 0;
+      width: 0;
+      border-top: 40px solid transparent;
+      border-bottom: 40px solid transparent;
+      border-right: 40px solid white;
+      -webkit-transform: rotate(-225deg);
+      left: 100px;
+      position: absolute;
+      bottom: 44px; }
