@@ -169,7 +169,9 @@ function init(){
 }
 
 /**
- *	
+ *	setInterval Function
+ *
+ *	Automatically reloads the page at a sepcified interval for the slide to fetch new data.
  * 
  */		
 

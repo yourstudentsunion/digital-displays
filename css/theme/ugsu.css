@@ -310,6 +310,9 @@ section.instafeed {
 section.events ul#events_feed {
   -webkit-column-count: 2; }
 
+.playback {
+  display: none; }
+
 section.instafeed {
   top: 0; }
   section.instafeed img {
