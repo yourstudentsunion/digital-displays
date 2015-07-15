@@ -258,6 +258,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/doms_2015.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.31482e+06,
+		"inputAbbreviatedPath": "\/img\/doms_2015.png",
+		"outputAbbreviatedPath": "\/img\/doms_2015.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/endsleigh_2nd.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -265,6 +276,17 @@
 		"initialSize": 102456,
 		"inputAbbreviatedPath": "\/img\/endsleigh_2nd.jpg",
 		"outputAbbreviatedPath": "\/img\/endsleigh_2nd.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/NUS_Plasma.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 163245,
+		"inputAbbreviatedPath": "\/img\/NUS_Plasma.png",
+		"outputAbbreviatedPath": "\/img\/NUS_Plasma.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
