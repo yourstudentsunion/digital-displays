@@ -295,9 +295,6 @@ body {
 .reveal section img {
   border: 0; }
 
-img {
-  border: none; }
-
 .social {
   height: 30%;
   width: 30%; }
@@ -307,11 +304,63 @@ section.instafeed {
   width: 98%;
   margin: 1%; }
 
-section.events ul#events_feed {
-  -webkit-column-count: 2; }
-
 .playback {
   display: none; }
+
+.fto article {
+  position: relative;
+  margin-top: -24%;
+  background: #004a8b;
+  border: 1px solid #CCC;
+  padding-top: 200px;
+  color: white;
+  z-index: 500; }
+  .fto article h5 {
+    font-weight: 100; }
+  .fto article h3 {
+    margin-top: 20px;
+    color: white;
+    margin-bottom: 150px; }
+.fto div.twitter,
+.fto div.email {
+  height: 100px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  bottom: 0; }
+  .fto div.twitter p,
+  .fto div.email p {
+    position: absolute;
+    right: 0;
+    padding-left: 20px; }
+  .fto div.twitter img,
+  .fto div.email img {
+    height: 50%;
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    margin-top: -25px; }
+.fto div.twitter {
+  width: 40%;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4); }
+  .fto div.twitter img {
+    width: 30%; }
+  .fto div.twitter p {
+    width: 80%; }
+.fto div.email {
+  width: 60%;
+  right: 0;
+  background: rgba(0, 0, 0, 0.3); }
+  .fto div.email img {
+    width: 20%; }
+  .fto div.email p {
+    width: 90%; }
+.fto .photo {
+  position: relative;
+  z-index: 10000;
+  border: 10px solid white !important;
+  border-radius: 100%; }
 
 section.instafeed {
   top: 0; }
@@ -444,3 +493,6 @@ section.tweets #latestTweet {
       left: 100px;
       position: absolute;
       bottom: 44px; }
+
+img {
+  border: none; }

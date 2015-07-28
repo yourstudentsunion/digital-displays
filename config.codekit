@@ -302,6 +302,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/perma\/hope.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.20247e+06,
+		"inputAbbreviatedPath": "\/img\/perma\/hope.JPG",
+		"outputAbbreviatedPath": "\/img\/perma\/hope.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/perma\/IMG_2343.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6.03993e+06,
+		"inputAbbreviatedPath": "\/img\/perma\/IMG_2343.JPG",
+		"outputAbbreviatedPath": "\/img\/perma\/IMG_2343.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/perma\/lauren.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.33099e+06,
+		"inputAbbreviatedPath": "\/img\/perma\/lauren.JPG",
+		"outputAbbreviatedPath": "\/img\/perma\/lauren.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/perma\/liam.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.66087e+06,
+		"inputAbbreviatedPath": "\/img\/perma\/liam.JPG",
+		"outputAbbreviatedPath": "\/img\/perma\/liam.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/perma\/president.JPG": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -309,6 +353,17 @@
 		"initialSize": 1.63098e+06,
 		"inputAbbreviatedPath": "\/img\/perma\/president.JPG",
 		"outputAbbreviatedPath": "\/img\/perma\/president.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/perma\/raph.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.88048e+06,
+		"inputAbbreviatedPath": "\/img\/perma\/raph.JPG",
+		"outputAbbreviatedPath": "\/img\/perma\/raph.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

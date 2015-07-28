@@ -132,11 +132,11 @@ function init(){
 		center: true,
 		history: false,
 		autoSlide: slide_length,
-		hideAddressBar: true,
+		hideAddressBar: false,
 		slideNumber: true,
 		loop: true,
 		viewDistance: 2,
-		margin: 0.05,
+		margin: 0.1,
 	
 		transition: 'slide', // none/fade/slide/convex/concave/zoom
 	

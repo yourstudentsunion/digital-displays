@@ -45,8 +45,6 @@ $heading4Size: 1.0em;
 
 .reveal section img { border: 0; }
 
-img { border: none; }
-
 .social {
 	
 	height: 30%;
@@ -62,21 +60,120 @@ section.instafeed {
 	
 }
 
-section.events {
-	
-	ul#events_feed {
-		
-		// font-size: 14px;
-		
-		-webkit-column-count: 2;
-		
-	}
-	
-}
-
 .playback {
 	
 	display: none;
+	
+}
+
+.fto {
+	
+	article {
+		
+		position: relative;
+		margin-top: -24%;
+		background: #004a8b;
+		border: 1px solid #CCC;
+		padding-top: 200px;
+		color: white;
+		z-index: 500;
+		
+		h5 {font-weight: 100;}
+		
+		h3 {
+			
+			//font-size: 0.9em;
+			margin-top: 20px;
+			color: white;
+			margin-bottom: 150px;
+			
+			
+		}
+			
+	}
+	
+	div.twitter,
+	div.email {
+		
+		height: 100px;
+		
+		padding-top: 20px;
+		border-top: 1px solid rgba(0,0,0,0.2);
+		
+		position: absolute;
+		bottom: 0;
+		
+		
+		p {
+			
+			position: absolute;
+			right: 0;
+			padding-left: 20px;
+			
+		}
+		
+		img {
+			
+			height: 50%;
+			position: absolute;
+			left: 0px;
+			top:50%;
+			margin-top: -25px;
+			
+		}
+		
+	}
+	
+	div.twitter {
+		
+		width: 40%;
+		left: 0;
+		background: rgba(0,0,0,0.4);
+		
+		img {
+			
+			width: 30%;
+			
+		}
+		
+		p {
+			
+			width: 80%;
+			
+		}
+		
+	}
+	
+	div.email {
+		
+		width: 60%;
+		right: 0;
+		background: rgba(0,0,0,0.3);
+		
+		img {
+			
+			width: 20%;
+			
+		}
+		
+		p {
+			
+			width: 90%;
+			
+		}
+		
+		
+	}
+	
+	.photo {
+		
+		position: relative;
+		z-index: 10000;
+
+		border: 10px solid white !important;
+		border-radius: 100%;
+		
+	}
 	
 }
 
@@ -342,6 +439,6 @@ section.tweets {
 	}
 	
 }
-
+img { border: none; }
 
 
