@@ -458,6 +458,8 @@ section.tweets #twitter {
   position: absolute;
   top: 0;
   right: 0; }
+section.tweets .media img {
+  width: 50% !important; }
 section.tweets h3 {
   text-align: left;
   color: white; }

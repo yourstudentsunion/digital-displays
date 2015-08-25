@@ -291,17 +291,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/perma\/cinnes.JPG": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.34827e+06,
-		"inputAbbreviatedPath": "\/img\/perma\/cinnes.JPG",
-		"outputAbbreviatedPath": "\/img\/perma\/cinnes.JPG",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/perma\/hope.JPG": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -342,17 +331,6 @@
 		"initialSize": 2.66087e+06,
 		"inputAbbreviatedPath": "\/img\/perma\/liam.JPG",
 		"outputAbbreviatedPath": "\/img\/perma\/liam.JPG",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/perma\/president.JPG": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.63098e+06,
-		"inputAbbreviatedPath": "\/img\/perma\/president.JPG",
-		"outputAbbreviatedPath": "\/img\/perma\/president.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -751,7 +729,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "SU Web",
+"lastSavedByUser": "James Williams",
 "manualImportLinks": {
 	},
 "projectAttributes": {
