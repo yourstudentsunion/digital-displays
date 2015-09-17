@@ -291,6 +291,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/o2 Big Bundles 1920x1080px.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 458815,
+		"inputAbbreviatedPath": "\/img\/o2 Big Bundles 1920x1080px.jpg",
+		"outputAbbreviatedPath": "\/img\/o2 Big Bundles 1920x1080px.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/perma\/hope.JPG": {
 		"fileType": 16384,
 		"ignore": 0,
