@@ -16,7 +16,7 @@
 ==
 */
 
-var slide_length = 10000; 			// 10s per slide
+var slide_length = 12000; 			// 10s per slide
 var slideshow_length = 1800000; 	// 1/2 Hour
 
 var i, console;
