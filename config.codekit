@@ -302,6 +302,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/isb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 127070,
+		"inputAbbreviatedPath": "\/img\/isb.jpg",
+		"outputAbbreviatedPath": "\/img\/isb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/NUS_Plasma.png": {
 		"fileType": 32768,
 		"ignore": 0,
