@@ -324,6 +324,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/GloucestershirePlasma.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 760155,
+		"inputAbbreviatedPath": "\/img\/GloucestershirePlasma.jpg",
+		"outputAbbreviatedPath": "\/img\/GloucestershirePlasma.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/isb.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
