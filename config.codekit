@@ -247,17 +247,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/img\/DigiKnow-SU-Slide.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 95688,
-		"inputAbbreviatedPath": "\/img\/DigiKnow-SU-Slide.jpg",
-		"outputAbbreviatedPath": "\/img\/DigiKnow-SU-Slide.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/doms_2015.png": {
 		"fileType": 32768,
 		"ignore": 0,
