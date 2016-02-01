@@ -258,6 +258,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/7762_PGOpenDayPlasmaScreen_Jan16.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/7762_PGOpenDayPlasmaScreen_Jan16.jpg",
+		"outputAbbreviatedPath": "\/img\/7762_PGOpenDayPlasmaScreen_Jan16.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/doms_2015.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -346,13 +357,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/WinterBall.png": {
+	"\/img\/StudAmbPCard.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.105e+06,
-		"inputAbbreviatedPath": "\/img\/WinterBall.png",
-		"outputAbbreviatedPath": "\/img\/WinterBall.png",
+		"initialSize": 881571,
+		"inputAbbreviatedPath": "\/img\/StudAmbPCard.png",
+		"outputAbbreviatedPath": "\/img\/StudAmbPCard.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
