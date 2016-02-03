@@ -302,6 +302,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/gtbDATES.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 149727,
+		"inputAbbreviatedPath": "\/img\/gtbDATES.png",
+		"outputAbbreviatedPath": "\/img\/gtbDATES.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/NUS_Plasma.png": {
 		"fileType": 32768,
 		"ignore": 0,
