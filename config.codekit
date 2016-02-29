@@ -379,6 +379,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/RedBull_1034x758_2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 75907,
+		"inputAbbreviatedPath": "\/img\/RedBull_1034x758_2.jpg",
+		"outputAbbreviatedPath": "\/img\/RedBull_1034x758_2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/StudAmbPCard.png": {
 		"fileType": 32768,
 		"ignore": 0,
