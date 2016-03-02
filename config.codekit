@@ -401,6 +401,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/SummerBall_Annoucement_Cards_CS.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 155494,
+		"inputAbbreviatedPath": "\/img\/SummerBall_Annoucement_Cards_CS.png",
+		"outputAbbreviatedPath": "\/img\/SummerBall_Annoucement_Cards_CS.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/SummerBall_Annoucement_Cards_DFA.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 207348,
+		"inputAbbreviatedPath": "\/img\/SummerBall_Annoucement_Cards_DFA.png",
+		"outputAbbreviatedPath": "\/img\/SummerBall_Annoucement_Cards_DFA.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/SummerBall_Annoucement_Cards_Price.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 152046,
+		"inputAbbreviatedPath": "\/img\/SummerBall_Annoucement_Cards_Price.png",
+		"outputAbbreviatedPath": "\/img\/SummerBall_Annoucement_Cards_Price.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
