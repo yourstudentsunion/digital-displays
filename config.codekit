@@ -434,6 +434,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/UniLaw_new_1034x758.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 152921,
+		"inputAbbreviatedPath": "\/img\/UniLaw_new_1034x758.jpg",
+		"outputAbbreviatedPath": "\/img\/UniLaw_new_1034x758.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
