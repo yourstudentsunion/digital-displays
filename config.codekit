@@ -247,39 +247,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/img\/1024_768_eng.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 124568,
-		"inputAbbreviatedPath": "\/img\/1024_768_eng.jpg",
-		"outputAbbreviatedPath": "\/img\/1024_768_eng.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/7762_PGOpenDayPlasmaScreen_Jan16.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/img\/7762_PGOpenDayPlasmaScreen_Jan16.jpg",
-		"outputAbbreviatedPath": "\/img\/7762_PGOpenDayPlasmaScreen_Jan16.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/coop.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 632542,
-		"inputAbbreviatedPath": "\/img\/coop.jpg",
-		"outputAbbreviatedPath": "\/img\/coop.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/doms_2015.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -291,24 +258,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/endsleigh_5th.jpg": {
+	"\/img\/endsleighMay.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 100971,
-		"inputAbbreviatedPath": "\/img\/endsleigh_5th.jpg",
-		"outputAbbreviatedPath": "\/img\/endsleigh_5th.jpg",
+		"initialSize": 103470,
+		"inputAbbreviatedPath": "\/img\/endsleighMay.jpg",
+		"outputAbbreviatedPath": "\/img\/endsleighMay.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/gtbDATES.png": {
-		"fileType": 32768,
+	"\/img\/i-DSworld.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 149727,
-		"inputAbbreviatedPath": "\/img\/gtbDATES.png",
-		"outputAbbreviatedPath": "\/img\/gtbDATES.png",
+		"initialSize": 2.59096e+06,
+		"inputAbbreviatedPath": "\/img\/i-DSworld.jpg",
+		"outputAbbreviatedPath": "\/img\/i-DSworld.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -364,83 +331,6 @@
 		"initialSize": 1.88048e+06,
 		"inputAbbreviatedPath": "\/img\/perma\/raph.JPG",
 		"outputAbbreviatedPath": "\/img\/perma\/raph.JPG",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/PlasmaScreen 208892.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 138205,
-		"inputAbbreviatedPath": "\/img\/PlasmaScreen 208892.jpg",
-		"outputAbbreviatedPath": "\/img\/PlasmaScreen 208892.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/RedBull_1034x758_2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 75907,
-		"inputAbbreviatedPath": "\/img\/RedBull_1034x758_2.jpg",
-		"outputAbbreviatedPath": "\/img\/RedBull_1034x758_2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/StudAmbPCard.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 881571,
-		"inputAbbreviatedPath": "\/img\/StudAmbPCard.png",
-		"outputAbbreviatedPath": "\/img\/StudAmbPCard.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/SummerBall_Annoucement_Cards_CS.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 155494,
-		"inputAbbreviatedPath": "\/img\/SummerBall_Annoucement_Cards_CS.png",
-		"outputAbbreviatedPath": "\/img\/SummerBall_Annoucement_Cards_CS.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/SummerBall_Annoucement_Cards_DFA.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 207348,
-		"inputAbbreviatedPath": "\/img\/SummerBall_Annoucement_Cards_DFA.png",
-		"outputAbbreviatedPath": "\/img\/SummerBall_Annoucement_Cards_DFA.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/SummerBall_Annoucement_Cards_Price.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 152046,
-		"inputAbbreviatedPath": "\/img\/SummerBall_Annoucement_Cards_Price.png",
-		"outputAbbreviatedPath": "\/img\/SummerBall_Annoucement_Cards_Price.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/UniLaw_new_1034x758.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 152921,
-		"inputAbbreviatedPath": "\/img\/UniLaw_new_1034x758.jpg",
-		"outputAbbreviatedPath": "\/img\/UniLaw_new_1034x758.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
