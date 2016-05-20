@@ -16,12 +16,28 @@
 
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/ugsu.css" id="theme">
+<<<<<<< HEAD
 		
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+=======
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+>>>>>>> master
 
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
 		<![endif]-->
+<<<<<<< HEAD
 		
 	</head>
 
@@ -153,10 +169,66 @@
 					<img data-src="img/NUS_Plasma.png" />
 					
 				</section>
+=======
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				
+				<section>
+					
+					<img src="img/perma/SU_Long_Colour.svg" />
+					
+				</section>
+
+				<section data-background="#ffffff">
+					
+					<img src="img/Housing%20plasma%201024%20x%20768%20JW.jpg" height="" width="" />
+					
+				</section>
+				 
+				<section data-background="#FF0000">
+					<!-- ACE Survey -->
+					<img src="img/ACE%20advert%202015.jpg" /> 
+					
+				</section>
+				
+				<section data-background="#ffffff">
+					<!-- Gonomies -->
+					<img src="img/Gnomies_PlasmaAdvert.jpg" />
+					
+				</section>
+				
+				<section data-background="img/IMG_9152.JPG">
+					
+					<!-- FTO Officers -->
+					<p>Officer Team 2014/15</p>
+					
+				</section>
+				
+				<section>
+					
+					<img class="social" src="img/perma/facebook.svg" height="" width="" />
+					<h3>/uogstudentsunion</h3>
+					
+				</section>
+				
+				<section>
+					
+					<img class="social" src="img/perma/twitter.svg" height="" width="" />
+					<h3>@yoursu</h3>
+					
+				</section>				
+>>>>>>> master
 				
 			</div>
 
 		</div>
+<<<<<<< HEAD
 	
 		<script src="lib/js/head.min.js"></script>
 		<script src="js/min/instafeed.min.js"></script>
@@ -167,4 +239,78 @@
 		
 	</body>
 
+=======
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			
+			var hour = 3600000;
+			var slide_length = 10000;
+			var slideshow_length = (slide_length * 8);
+			
+			(function() {
+			    var mouseTimer = null, cursorVisible = true;
+			
+			    function disappearCursor() {
+			        mouseTimer = null;
+			        document.body.style.cursor = "none";
+			        cursorVisible = false;
+			    }
+			
+			    document.onmousemove = function() {
+			        if (mouseTimer) {
+			            window.clearTimeout(mouseTimer);
+			        }
+			        if (!cursorVisible) {
+			            document.body.style.cursor = "default";
+			            cursorVisible = true;
+			        }
+			        mouseTimer = window.setTimeout(disappearCursor, 5000);
+			    };
+			})();
+			
+			function init(){
+				
+				// Full list of configuration options available at:
+				// https://github.com/hakimel/reveal.js#configuration
+				Reveal.initialize({
+					controls: false,
+					progress: false,
+					history: false,
+					autoSlide: slide_length,
+					hideAddressBar: true,
+					transition: 'slide',
+					loop: true,
+					center: true,
+	
+					transition: 'slide', // none/fade/slide/convex/concave/zoom
+	
+					// Optional reveal.js plugins
+					dependencies: [
+						{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+						{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+						{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+						{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+						{ src: 'plugin/zoom-js/zoom.js', async: true },
+						{ src: 'plugin/notes/notes.js', async: true }
+					]
+				});
+				
+			}
+			
+			init();
+			
+			setInterval(function () {
+				
+				init();
+					
+			}, slideshow_length);
+			
+
+		</script>
+
+	</body>
+>>>>>>> master
 </html>
