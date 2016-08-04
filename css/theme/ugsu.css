@@ -496,5 +496,13 @@ section.tweets #latestTweet {
       position: absolute;
       bottom: 44px; }
 
+section.UoGStrat_13 {
+    background: linear-gradient(#e40081, #4d2d70);
+}
+
+section.UoGStrat_2 {
+    background: linear-gradient(#4d2d70, #e40081);
+}
+
 img {
   border: none; }
